@@ -25,22 +25,9 @@ jupyter notebook QueryObjectsPresentation.ipynb
 https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper
 
 # Screen shots
-<table>
-  <tr>
-    <td align="center">
-      <img src="images/GraphWalkSEEKComonsScreenShotStep1.jpg" width="250" alt="Step 1 - SEEKCommons" />
-      <br />
-      <sub>SEEKCommons project</sub>
-    </td>
-    <td align="center">
-      <img src="images/GraphWalkSEEKComonsScreenShotStep3.jpg" width="250" alt="Step 3 - Notre Dame" />
-      <br />
-      <sub>University of Notre Dame</sub>
-    </td>
-    <td align="center">
-      <img src="images/GraphWalkSEEKComonsScreenShotStep4.jpg" width="250" alt="Step 4 - Luis Felipe Rosado Murillo" />
-      <br />
-      <sub>Luis Felipe Rosado Murillo</sub>
-    </td>
-  </tr>
-</table>
+## Graph Walk
+### Step 1
+![Step 1 - SEEKCommons](https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKComonsScreenShotStep1.jpg?raw=true)
+
+### Steps 3 & 4
+<img src="https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKComonsScreenShotStep3.jpg?raw=true" width="45%"> <img src="https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKComonsScreenShotStep4.jpg?raw=true" width="45%">
