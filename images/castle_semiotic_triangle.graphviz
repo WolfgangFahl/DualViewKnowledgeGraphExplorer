@@ -1,0 +1,35 @@
+/**
+ * Castle Semiotic Triangle
+ * Author: wf
+ * Date: 2025-11-17
+ * Visualizes the relationship between castle concept, real instance, and fictional derivative
+ */
+digraph CastleHierarchy {
+    // Triangle layout configuration
+    graph [rankdir=TB];
+    node [shape=box, fixedsize=true, width=3, height=3, imagescale=true, style=filled, fillcolor=lightgrey, fontcolor=white, fontsize=30];
+    edge [color=blue, fontcolor=blue, fontsize=20];
+
+    // Symbol - Castle icon from Wikimedia Commons
+    // Links to Icon on Wikimedia Commons
+    symbol [image="Castle-Icon.png", label="Symbol", URL="https://commons.wikimedia.org/wiki/File:Castle_(color).svg"];
+
+    // Real thing - Neuschwanstein
+    // Bavarian castle built 1869-1886, links to Q4152
+    thing [image="Schloss_Neuschwanstein_2013.jpg", label="Thing", URL="https://www.wikidata.org/wiki/Q4152"];
+
+    // Fictional thought - Cinderella Castle at Disney
+    // Inspired by Neuschwanstein, links to Q124652827
+    thought [image="Cinderella_Castle_2013_Wade.jpg", label="Thought", URL="https://www.wikidata.org/wiki/Q124652827"];
+
+    // Force triangle layout with same rank for bottom nodes
+    {rank=same; thing; thought}
+
+    // Triangle relationships - 6 arrows forming complete triangle
+    symbol -> thing [label="stands for"];
+    thing -> symbol [label="represented by"];
+    symbol -> thought [label="evokes"];
+    thought -> symbol [label="symbolized by"];
+    thing -> thought [label="inspires"];
+    thought -> thing [label="refers to"];
+}

@@ -1,0 +1,119 @@
+# Dual-View Knowledge Graph Explorer - Navigation Steps
+# Author: Wolfgang Fahl / bitplan.com
+# 2025-11-16 for SeekCommons Workshop
+
+node_types:
+  organization:
+    label: "Organization"
+    wikidata_id: "Q43229"
+    icon: "🏢"
+
+  project:
+    label: "Project"
+    wikidata_id: "Q170584"
+    icon: "📋"
+
+  grant:
+    label: "Grant"
+    wikidata_id: "Q230788"
+    icon: "💰"
+
+  person:
+    label: "Person"
+    wikidata_id: "Q5"
+    icon: "👤"
+
+edge_types:
+  funded_by:
+    label: "funded by"
+    wikidata_id: "P8324"
+    icon: "←💰"
+
+  operator:
+    label: "operator"
+    wikidata_id: "P137"
+    icon: "⚙️"
+
+  principal_investigator:
+    label: "principal investigator"
+    wikidata_id: "P1037"
+    icon: "👨‍🔬"
+
+  participant:
+    label: "participant"
+    wikidata_id: "P1344"
+    icon: "👥"
+
+  employer:
+    label: "employer"
+    wikidata_id: "P108"
+    icon: "💼"
+
+nodes:
+  seekcommons:
+    label: "SeekCommons"
+    type: project
+    wikidata_id: "Q118147033"
+    web_url: "https://seekcommons.org/"
+
+  nsf_grant:
+    label: "National Foundation for Semantic and Knowledge Graph Research"
+    type: grant
+    wikidata_id: "Q118147233"
+    web_url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2226425"
+
+  university_notre_dame:
+    label: "University of Notre Dame"
+    type: organization
+    wikidata_id: "Q178848"
+    web_url: "https://www.nd.edu/"
+
+  luis_felipe:
+    label: "Luis Felipe Rosado Murillo"
+    type: person
+    wikidata_id: Q63930019
+    orcid: "0000-0003-0563-7783"
+    web_url: "https://anthropology.nd.edu/people/faculty/luis-felipe-rosado-murillo/"
+
+  gerd_heber:
+    label: "Gerd Heber"
+    type: person
+    wikidata_id: "Q87654321"
+    orcid: "0000-0002-4225-8992"
+    web_url: "https://www.hdfgroup.org/about/team/"
+
+edges:
+  seekcommons_funded_by_nsf:
+    from: seekcommons
+    to: nsf_grant
+    type: funded_by
+
+  nsf_operated_by_nd:
+    from: nsf_grant
+    to: university_notre_dame
+    type: operator
+
+  nsf_has_pi_luis:
+    from: nsf_grant
+    to: luis_felipe
+    type: principal_investigator
+
+  nsf_has_participant_gerd:
+    from: nsf_grant
+    to: gerd_heber
+    type: participant
+
+  luis_employed_by_nd:
+    from: luis_felipe
+    to: university_notre_dame
+    type: employer
+
+walks:
+  seekcommons_grant_walk:
+    label: "SeekCommons Grant Exploration"
+    start_node: seekcommons
+    sequence:
+      - edge: seekcommons_funded_by_nsf
+      - edge: nsf_operated_by_nd
+      - edge: nsf_has_pi_luis
+      - edge: luis_employed_by_nd

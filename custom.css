@@ -1,0 +1,42 @@
+/* SeekCommons reveal template */
+/* Default font size */
+.reveal .slides > section {
+    font-size: 0.5em; /* Adjust value as needed (0.8em, 0.7em, etc.) */
+}
+
+.reveal .slides > section {
+    background-image: url('images/nsf_icon.png'), url('images/seekcommons_logo.png');
+    background-position: left 60px bottom 30px, right 60px top 30px;
+    background-size: 65px auto, 130px auto;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.reveal .slides > section::before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    right: 60px;
+    border-top: 2px solid #666;
+}
+
+.reveal .slides > section::after {
+    content: '';
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    right: 60px;
+    border-top: 2px solid #666;
+}
+
+/* opt when no-frame class is set */
+.reveal .slides > section.no-frame {
+    background: none !important;
+    text-align: center !important;
+}
+
+.reveal .slides > section.no-frame::before,
+.reveal .slides > section.no-frame::after {
+    display: none;
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440">
+  <rect stroke="#2c3e50" stroke-width="1" x="100" y="100" width="180" height="30" fill-opacity="1.0" fill="#ecf0f1"/>
+  <text font-size="12" font-weight="bold" fill-opacity="1.0" fill="#000000" x="105" y="119">wikidataid</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="280" y="100" width="180" height="30" fill-opacity="1.0" fill="#ecf0f1"/>
+  <text font-size="12" font-weight="bold" fill-opacity="1.0" fill="#000000" x="285" y="119">profession</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="460" y="100" width="180" height="30" fill-opacity="1.0" fill="#ecf0f1"/>
+  <text font-size="12" font-weight="bold" fill-opacity="1.0" fill="#000000" x="465" y="119">born</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="640" y="100" width="180" height="30" fill-opacity="1.0" fill="#ecf0f1"/>
+  <text font-size="12" font-weight="bold" fill-opacity="1.0" fill="#000000" x="645" y="119">surname</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="820" y="100" width="180" height="30" fill-opacity="1.0" fill="#ecf0f1"/>
+  <text font-size="12" font-weight="bold" fill-opacity="1.0" fill="#000000" x="825" y="119">firstname</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="100" y="130" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <a target="_blank" href="https://www.wikidata.org/wiki/Q937">
+    <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="105" y="149">Q937</text>
+  </a>
+  <rect stroke="#2c3e50" stroke-width="1" x="280" y="130" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="285" y="149">Physicist</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="460" y="130" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="465" y="149">1879-03-14</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="640" y="130" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="645" y="149">Einstein</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="820" y="130" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="825" y="149">Albert</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="100" y="160" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <a target="_blank" href="https://www.wikidata.org/wiki/Q7186">
+    <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="105" y="179">Q7186</text>
+  </a>
+  <rect stroke="#2c3e50" stroke-width="1" x="280" y="160" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="285" y="179">Chemist</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="460" y="160" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="465" y="179">1867-11-07</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="640" y="160" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="645" y="179">Curie</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="820" y="160" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="825" y="179">Marie</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="100" y="190" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <a target="_blank" href="https://www.wikidata.org/wiki/Q7251">
+    <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="105" y="209">Q7251</text>
+  </a>
+  <rect stroke="#2c3e50" stroke-width="1" x="280" y="190" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="285" y="209">Computer Scientist</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="460" y="190" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="465" y="209">1912-06-23</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="640" y="190" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="645" y="209">Turing</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="820" y="190" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="825" y="209">Alan</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="100" y="220" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <a target="_blank" href="https://www.wikidata.org/wiki/Q80">
+    <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="105" y="239">Q80</text>
+  </a>
+  <rect stroke="#2c3e50" stroke-width="2" x="280" y="220" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="285" y="239">Computer Scientist</text>
+  <rect stroke="#2c3e50" stroke-width="3" x="460" y="220" width="180" height="30" fill-opacity="1.0" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="1.0" fill="#000000" x="465" y="239">1955-06-08</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="640" y="220" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="645" y="239">Berners-Lee</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="820" y="220" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="825" y="239">Timothy</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="100" y="250" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <a target="_blank" href="https://www.wikidata.org/wiki/Q7099">
+    <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="105" y="269">Q7099</text>
+  </a>
+  <rect stroke="#2c3e50" stroke-width="1" x="280" y="250" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="285" y="269">Mathematician</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="460" y="250" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="465" y="269">1882-03-23</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="640" y="250" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="645" y="269">Noether</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="820" y="250" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="825" y="269">Emmy</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="100" y="280" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <a target="_blank" href="https://www.wikidata.org/wiki/Q39246">
+    <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="105" y="299">Q39246</text>
+  </a>
+  <rect stroke="#2c3e50" stroke-width="1" x="280" y="280" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="285" y="299">Physicist</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="460" y="280" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="465" y="299">1918-05-11</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="640" y="280" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="645" y="299">Feynman</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="820" y="280" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="825" y="299">Richard</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="100" y="310" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <a target="_blank" href="https://www.wikidata.org/wiki/Q9036">
+    <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="105" y="329">Q9036</text>
+  </a>
+  <rect stroke="#2c3e50" stroke-width="1" x="280" y="310" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="285" y="329">Inventor</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="460" y="310" width="180" height="30" fill-opacity="0.65" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.65" fill="#555555" x="465" y="329">1856-07-10</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="640" y="310" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="645" y="329">Tesla</text>
+  <rect stroke="#2c3e50" stroke-width="1" x="820" y="310" width="180" height="30" fill-opacity="0.3" fill="white"/>
+  <text font-size="12" font-weight="normal" fill-opacity="0.3" fill="#AAAAAA" x="825" y="329">Nikola</text>
+  <rect stroke="#2c3e50" stroke-width="2" x="0" y="0" width="1100" height="440" fill="none"/>
+  <text font-size="14" font-weight="bold" x="22.0" y="28.200000000000003">Person</text>
+  <text font-size="14" font-weight="bold" x="55.0" y="59.0">Triple:</text>
+  <marker id="arrow" refX="10" refY="5" markerUnits="strokeWidth" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+  </marker>
+  <path stroke="black" stroke-width="1.5" d="M 165.0 66.0 C 258.5 151.79999999999998, 258.5 151.79999999999998, 132.0 237.60000000000002" marker-end="url(#arrow)" fill="none"/>
+  <text text-anchor="middle" font-size="12" font-weight="bold" x="165.0" y="60.0">Subject</text>
+  <path stroke="black" stroke-width="1.5" d="M 220.0 66.0 C 341.0 91.3, 341.0 91.3, 462.0 116.60000000000001" marker-end="url(#arrow)" fill="none"/>
+  <text text-anchor="middle" font-size="12" font-weight="bold" x="220.0" y="60.0">Predicate</text>
+  <path stroke="black" stroke-width="1.5" d="M 275.0 66.0 C 231.0 151.79999999999998, 231.0 151.79999999999998, 451.0 237.60000000000002" marker-end="url(#arrow)" fill="none"/>
+  <text text-anchor="middle" font-size="12" font-weight="bold" x="275.0" y="60.0">Object</text>
+  <path stroke="black" stroke-width="1.5" d="M 715.0 66.0 C 621.4999999999999 151.79999999999998, 621.4999999999999 151.79999999999998, 528.0 237.60000000000002" marker-end="url(#arrow)" fill="none"/>
+  <text text-anchor="middle" font-size="12" font-weight="bold" x="715.0" y="60.0">Cell</text>
+  <path stroke="black" stroke-width="1.5" d="M 33.0 237.60000000000002 C 60.5 237.60000000000002, 60.5 237.60000000000002, 88.0 237.60000000000002" marker-end="url(#arrow)" fill="none"/>
+  <text text-anchor="middle" font-size="12" font-weight="bold" x="33.0" y="231.60000000000002">Row</text>
+  <text font-size="12" font-weight="bold" x="33.0" y="258.0">Entity</text>
+  <path stroke="black" stroke-width="1.5" d="M 473.0 44.0 C 473.0 74.80000000000001, 473.0 74.80000000000001, 473.0 105.6" marker-end="url(#arrow)" fill="none"/>
+  <text text-anchor="middle" font-size="12" font-weight="bold" x="473.0" y="38.0">Column</text>
+  <text font-size="12" font-weight="bold" x="495.0" y="64.4">Property</text>
+</svg>

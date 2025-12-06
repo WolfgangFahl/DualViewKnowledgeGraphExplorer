@@ -1,0 +1,49 @@
+# Dual-View Knowledge Graph Explorer - Navigation Steps
+# Author: Wolfgang Fahl / bitplan.com
+# 2025-11-16 for SeekCommons Workshop
+# RDF Turtle Version of Steps
+@prefix explorer: <http://bitplan.com/explorer#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+explorer:seekcommons_project a explorer:NavigationStep ;
+    rdfs:label "SeekCommons Project" ;
+    explorer:kgTitle "SeekCommons" ;
+    explorer:kgUrl <https://www.wikidata.org/wiki/Q118147033> ;
+    explorer:webTitle "SeekCommons Homepage" ;
+    explorer:webUrl <https://seekcommons.org/> ;
+    explorer:next explorer:nsf_grant .
+
+explorer:nsf_grant a explorer:NavigationStep ;
+    rdfs:label "NSF Grant" ;
+    explorer:kgTitle "National Foundation for Semantic and Knowledge Graph Research" ;
+    explorer:kgUrl <https://www.wikidata.org/wiki/Q118147233> ;
+    explorer:webTitle "NSF Award #2226425" ;
+    explorer:webUrl <https://www.nsf.gov/awardsearch/showAward?AWD_ID=2226425> ;
+    explorer:prev explorer:seekcommons_project ;
+    explorer:next explorer:university_notre_dame .
+
+explorer:university_notre_dame a explorer:NavigationStep ;
+    rdfs:label "University of Notre Dame" ;
+    explorer:kgTitle "University of Notre Dame" ;
+    explorer:kgUrl <https://www.wikidata.org/wiki/Q178848> ;
+    explorer:webTitle "University of Notre Dame Homepage" ;
+    explorer:webUrl <https://www.nd.edu/> ;
+    explorer:prev explorer:nsf_grant ;
+    explorer:next explorer:principal_investigator .
+
+explorer:principal_investigator a explorer:NavigationStep ;
+    rdfs:label "Principal Investigator - Luis Felipe Rosado Murillo" ;
+    explorer:kgTitle "Luis Felipe Rosado Murillo" ;
+    explorer:webTitle "Luis Felipe Rosado Murillo - Faculty Profile" ;
+    explorer:webUrl <https://engineering.nd.edu/faculty/luis-rosado-murillo/> ;
+    explorer:prev explorer:university_notre_dame ;
+    explorer:next explorer:co_investigator_heber .
+
+explorer:co_investigator_heber a explorer:NavigationStep ;
+    rdfs:label "Co-Principal Investigator - Gerd Heber" ;
+    explorer:kgTitle "Gerd Heber" ;
+    explorer:kgUrl <https://www.wikidata.org/wiki/Q87654321> ;
+    explorer:webTitle "Gerd Heber - The HDF Group" ;
+    explorer:webUrl <https://www.hdfgroup.org/about/team/> ;
+    explorer:prev explorer:principal_investigator .

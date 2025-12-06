@@ -1,0 +1,106 @@
+<svg  height='730' width='1300' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'>
+  <title>BITPLan Logo</title>
+  <style type='text/css'><![CDATA[
+    .Border { fill:none; stroke:blue; stroke-width:1 }
+    .Connect { fill:none; stroke:#888888; stroke-width:2 }
+    .SamplePath { fill:none; stroke:red; stroke-width:5 }
+    .DebugPoint { fill:none; stroke:#FF0000; stroke-width:3 }
+    .DebugRect { fill:none; stroke:blue; stroke-width:3 }
+    .EndPoint { fill:none; stroke:#888888; stroke-width:2 }
+    .CtlPoint { fill:#888888; stroke:none }
+    .CtlLine { fill:#888888; stroke:#888888 }
+    .AutoCtlPoint { fill:none; stroke:blue; stroke-width:4 }
+    .Label { font-size:22; font-family:Verdana }
+    ]]>
+  </style>
+  <defs>
+    <ellipse id='kopf0' cx='0' cy='0' rx='100.00000000000001' ry='150.0' fill='#ff8000' stroke='#ff8800' />
+    <g id='heurekabody'>
+      <path id='heurekabody0' d='M  1008, 618
+        C  955, 860  867,1140  891,1447
+        C  914,1754 1049,2087 1123,2253
+        C 1198,2419 1213,2418 1180,2241
+        C 1147,2064 1067,1711 1065,1410
+        C 1062,1109 1139, 859 1161, 626
+        C 1184, 393 1153, 177 1134,  69
+        C 1114, -38 1107, -36 1094,  67
+        C 1081, 171 1061, 375 1008, 618
+        ' fill-rule='nonzero' fill='#FF8000' stroke='#FF8000'/>
+      <path id='heurekabody1' d='M  1257, 668
+        C 1053, 816  836,1034  688,1315
+        C  541,1595  463,1938  430,2113
+        C  397,2289  408,2298  484,2135
+        C  560,1972  700,1637  853,1381
+        C 1006,1126 1172, 950 1343, 795
+        C 1513, 640 1687, 506 1770, 438
+        C 1854, 370 1846, 368 1748, 405
+        C 1650, 442 1460, 520 1257, 668
+        ' fill-rule='nonzero' fill='#FF8000' stroke='#FF8000'/>
+      <path id='heurekabody2' d='M  1008, 618
+        C  938, 832  803,1040  688,1315
+        C  573,1590  478,1931  430,2113
+        C  383,2296  384,2319  484,2135
+        C  585,1952  784,1561  853,1381
+        C  922,1201  859,1232  891,1447
+        C  923,1662 1050,2061 1123,2253
+        C 1197,2446 1216,2431 1180,2241
+        C 1144,2051 1052,1685 1065,1410
+        C 1077,1135 1193, 951 1343, 795
+        C 1492, 639 1675, 511 1770, 438
+        C 1865, 365 1871, 348 1748, 405
+        C 1625, 462 1373, 593 1257, 668
+        C 1140, 742 1159, 760 1161, 626
+        C 1163, 491 1148, 205 1134,  69
+        C 1119, -66 1104, -50 1094,  67
+        C 1084, 185 1078, 404 1008, 618
+        ' fill-rule='nonzero' fill='#FF8000' stroke='#FF8000'/>
+    </g>
+    <g id='heureka0'>
+      <g transform='translate(1335.6224155638808,423.01254844961903) rotate(29.5)'>
+        <use xlink:href='#kopf0' />
+      </g>
+      <g transform='translate(0,0)'>
+        <use xlink:href='#heurekabody' />
+      </g>
+    </g>
+    <g id="B">
+      <path transform="scale(1, -1) translate(-167, -1500)" d="M1075 397q0 -113 -55.5 -212t-142.5 -142t-312 -43h-348q-29 0 -36 7t-7 36v1319q0 36 19 41q8 2 24 2h332q126 0 171 -5q98 -12 161 -54q143 -97 143 -302q0 -216 -207 -309q123 -32 190.5 -121t67.5 -217zM752 1016q0 114 -80 162q-38 22 -123 22h-109v-379h86 q113 0 160 35q66 48 66 160zM793 414q0 106 -58 151t-194 45h-101v-387h97q138 0 197 44t59 147z" />
+    </g>
+    <g id="I">
+      <path transform="scale(1, -1) translate(-202, -1500)" d="M502 23q0 -23 -23 -23h-246q-17 0 -20 4t-3 19v1360q-1 9 3 16t20 7h246q15 0 19 -4t4 -19v-1360z" />
+    </g>
+    <g id="T">
+    <path transform="scale(1, -1)   translate(5, -1500)" d="M834 1355.5q24 -49.5 18 -72.5q-2 -43 -24.5 -82.5t-58.5 -39.5h-218v-1118q0 -29 -7 -36t-36 -7h-199q-29 0 -36 7t-7 36v1118h-218q-29 0 -56 47t-27 75v0q0 29 27.5 75.5t55.5 46.5h721q41 0 65 -49.5z" />
+    </g>
+    <g id="P">
+      <path transform="scale(1, -1) translate(-167, -1500)" d="M1026 1020q0 -208 -127.5 -333.5t-339.5 -125.5h-104v-518q0 -36 -19 -41q-8 -2 -24 -2h-195q-29 0 -36 7t-7 36v1319q0 29 7 36t36 7h332q228 0 321 -57q156 -96 156 -328zM756 1004q0 108 -48.5 150t-172.5 42h-80v-403h57q135 0 189.5 47t54.5 164z" />
+    </g>
+    <g id="l">
+      <path transform="scale(1, -1) translate(-128, -1500)" d="M592 23q0 -21 -67 -39.5t-140 -18.5q-183 0 -233 148q-19 53 -19 249v1041q0 33 31 39l184 37q21 4 25 4q20 0 20 -35v-1067q0 -120 4 -135q11 -41 52 -41q28 0 67 12q6 2 14 2q14 0 17 -12l43 -176q2 -4 2 -8z" />
+    </g>
+    <g id="a">
+      <path transform="scale(1, -1) translate(-62, -1500)" d="M899 57q0 -14 -16 -20l-160 -64q-9 -6 -25 -6q-28 0 -61 121q-114 -117 -262 -117q-141 0 -224 84t-83 226q0 269 305 329q80 16 229 19v63q0 88 -29 121t-106 33q-92 0 -229 -53q-13 -7 -23 -7q-13 0 -20 21l-43 123q-5 11 -5 22q0 33 114 64t237 31q247 0 319 -158 q29 -63 29 -170v-418q0 -124 47 -221q6 -13 6 -23zM602 233v226q-154 0 -220.5 -37.5t-66.5 -126.5q0 -60 38 -100.5t93 -40.5q82 0 156 79z" />
+    </g>
+    <g id="n">
+     <path transform="scale(1, -1) translate(-100, -1500)" d="M967 35q0 -35 -35 -35h-191q-34 0 -34 35v631q0 172 -117 172q-80 0 -178 -84v-719q0 -35 -35 -35h-191q-34 0 -34 35v688q0 132 -43 223q-7 13 -7 21q0 12 17 18l182 68q11 4 21 4q38 0 73 -142q143 132 307 132q265 0 265 -324v-688z" />
+    </g>
+    <g id='BITPlan' transform='scale (0.517,0.51) translate(0,0)'>
+      <use x='170'  xlink:href='#B'/>
+      <use x='1235' xlink:href='#I'/>
+      <use x='1750' xlink:href='#T'/>
+      <use x='2760' xlink:href='#P' style='fill:#FF8000;'/>
+      <use x='3785' xlink:href='#l' style='fill:#FF8000;'/>
+      <use x='4290' xlink:href='#a' style='fill:#FF8000;'/>
+      <use x='5315' xlink:href='#n' style='fill:#FF8000;'/>
+    </g>
+  </defs>
+  <!-- <rect x="0" y="0" width="100%" height="100%" fill="none" stroke="#ff8000" /> -->
+  <g id='heurekasvg' transform='scale(0.29333) translate(-170,36) '>
+    <g id='heurekasvgbody' transform=''>
+      <use x='20' y='20' xlink:href='#heureka0'/>
+    </g>
+    <g id='BITPlanText' transform='translate(1212,990)'>
+      <use xlink:href='#BITPlan'/>
+    </g>
+  </g>
+</svg>

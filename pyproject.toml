@@ -1,0 +1,31 @@
+[project]
+name = "query-set-runner"
+version = "0.1.0"
+description = "SPARQL Query Runner with multiple UI options"
+authors = [
+    {name = "Wolfgang Fahl", email = "wf@bitplan.com"}
+]
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0",
+    "pyyaml>=6.0",
+    "pylodstorage>=0.17.5",
+    "nicegui==2.24.2",
+    "pandas>=2.0.0",
+]
+
+[project.optional-dependencies]
+notebook = [
+    "ipywidgets>=8.0.0",
+    "jupyter>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["query_set_runner"]
+
+[project.scripts]
+query-runner = "query_set_runner:main"

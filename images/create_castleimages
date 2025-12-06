@@ -1,0 +1,5 @@
+#!/bin/bash
+# WF 2025-11-17
+# create svg and png images for semiotic triangle
+dot -Tsvg castle_semiotic_triangle.graphviz -o castle_semiotic_triangle.svg
+convert castle_semiotic_triangle.svg castle_semiotic_triangle.png
