@@ -27,7 +27,7 @@ https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper
 # Screen shots
 ## Graph Walk
 ### Step 1
-![Step 1 - SEEKCommons](https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKComonsScreenShotStep1.jpg?raw=true)
+![Step 1 - SEEKCommons](https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKCommonsScreenShotStep1.jpg?raw=true)
 
 ### Steps 3 & 4
-<img src="https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKComonsScreenShotStep3.jpg?raw=true" width="45%"> <img src="https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKComonsScreenShotStep4.jpg?raw=true" width="45%">
+<img src="https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKCommonsScreenShotStep3.jpg?raw=true" width="45%"> <img src="https://github.com/WolfgangFahl/DualViewKnowledgeGraphExplorerPaper/blob/main/images/GraphWalkSEEKCommonsScreenShotStep4.jpg?raw=true" width="45%">
